@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive-Rating</title>
+    <link rel="icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="star">
+            <img src="./images/icon-star.svg" alt="">
+        </div>
+        <div class="text">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support<br>request.All feedback is appreciated to help us<br>improve our offering!</p>
+        </div>
+        <ul>
+            <li><button class="btn" onclick="one()">1</button></li>
+            <li><button class="btn" onclick="two()">2</button></li>
+            <li><button class="btn" onclick="three()">3</button></li>
+            <li><button class="btn"onclick="four()">4</button></li>
+            <li><button class="btn"onclick="five()">5</button></li>
+        </ul>
+        <button class="submit" onclick="thankyou()">Submit</button>
+    </div>
+    <div class="container2 hidden">
+        <img src="./images/illustration-thank-you.svg" alt="">
+        <p class="firstText">you selected <span id="rating"></span> out of 5</p>
+        <h1>Thank you!</h1>
+        <p class="secoundText"> We appreciate you taking the time to give a rating.<br> If you ever need more support, 
+            don’t hesitate to<br> get in touch!
+          </p>
+          <script src="java.js"></script>
+    </div>
+</body>
+</html>
