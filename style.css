@@ -73,7 +73,7 @@ ul{
     border: none;
     font-size: 15px;
 }
-.submit{
+#submit{
     height: 6dvh;
     border-radius: 20px;
     background-color: hsl(25, 97%, 53%);
@@ -95,7 +95,7 @@ ul{
     color: white;
     cursor: pointer;
 }
-.submit:hover{
+#submit:hover{
     color: hsl(25, 97%, 53%);
     background-color: white;
     cursor: pointer;
@@ -118,4 +118,6 @@ ul{
 .hidden{
     display: none;
 }
-
+.firstText,span{
+    color: hsl(25, 97%, 53%);;
+}
